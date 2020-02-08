@@ -10,37 +10,57 @@
     </head>
 
     <body>
-        <header>
-            <!-- This is my Header Section -->
-            <div class="header">
-                <div class="nav-left">
-                <h1>Brooke Guarienti</h1>
-                </div>
-
-                <div class="nav-right">
+        <header class="site-header">
+            <!-- This is the Header Section -->
+            <div class="header-wrapper container">
+            <!-- This is nav-left -->    
+                <a href="index.html" class="nav-left">
+                    <h1>Brooke Guarienti</h1>
+                </a>
+            <!-- This is nav right -->    
+                <section class="nav-right">
                     <ul>
-                        <li>About</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
                     </ul>
-                </div>
+                </section>
             </div>
         </header>
 
         <!-- This is my Contact Section -->
-        <div class="Contact-wrapper">
-            <h2>Contact</h2>
-            <form action="/action_page.php" method="get">
-                Name: <input type="text" name="name" placeholder="Jane Doe"><br>
-                E-mail: <input type="email" name="email" placeholder="example@gmail.com"><br>
-                Message: <input type="text" name="message"><br>
-                <input type="submit" value="Submit">
-              </form>
+        <div class="contact-wrapper container">
+            <div class="contact-content-wrapper">
+                <section id="about-me">
+                    <h2>Contact</h2>
+                </section>
+                <form action="/action_page.php" method="get">
+                    <div class="input-wrapper">
+                        <span>Name:</span>
+                        <input type="text" name="name" placeholder="Jane Doe">
+                    </div>
+                    <div class="input-wrapper">
+                        <span>E-mail:</span>
+                        <input type="email" name="email" placeholder="example@gmail.com"><br>
+                    </div>
+                    <div class="input-wrapper message-field">
+                        <span>Message:</span>
+                        <input type="text" name="message"><br>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
 
         <!-- This is the site footer -->
-        <div class="Footer">
-            Copyright
-        </div>
+        <div class="footer-wrapper container">
+            Copyright © 
+        </div>  
     </body>    
 </html>

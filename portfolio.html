@@ -10,39 +10,68 @@
     </head>
 
     <body>
-        <header>
-            <!-- This is my Header Section -->
-            <div class="header">
-                <div class="nav-left">
-                <h1>Brooke Guarienti</h1>
-                </div>
-
-                <div class="nav-right">
+        <header class="site-header">
+            <!-- This is the Header Section -->
+            <div class="header-wrapper container">
+            <!-- This is nav-left -->    
+                <a href="index.html" class="nav-left">
+                    <h1>Brooke Guarienti</h1>
+                </a>
+            <!-- This is nav right -->    
+                <section class="nav-right">
                     <ul>
-                        <li>About</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
                     </ul>
-                </div>
+                </section>
             </div>
         </header>
 
-        <!-- This is my Gallery Section -->
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-        <div class="portfolio-content-wrapper">
-            <section id="hangman">Hangman</section>
-            <section id="rpg-game">RPG Game</section>  
-            <section id="trivia-game">Trivia Game</section>  
-            <section id="brookes-info-widget">Brooke's Info Widget</section>  
-            <section id="rock-paper-scissors">Rock Paper Scissors</section>      
+        <div class="portfolio-content-wrapper container">
+
+            <!-- This is my Gallery Section -->
+        <div class="portfolio-wrapper">
+            <section id="about-me">
+                <h2>Portfolio</h2>
             </section>
+            <div class="portfolio-item-wrapper">
+                <section class="portfolio-item" id="hangman">
+                    <img src="assets/images/Asset1.jpg" alt="Brooke Hangman">
+                    <span>Hangman</span>
+                </section>
+
+                <section class="portfolio-item" id="rpg-game">
+                    <img src="assets/images/Asset2.jpg" alt="RPG Game">
+                    <span>RPG Game</span>
+                </section>
+
+                <section class="portfolio-item" id="trivia-game">
+                    <img src="assets/images/Asset3.jpg" alt="Trivia Game">
+                    <span>Trivia Game</span>
+                </section>  
+
+                <section class="portfolio-item" id="brookes-info-widget">
+                    <img src="assets/images/Asset4.jpg" alt="Brooke's Info Widget">
+                    <span>Brooke's Info Widget</span>
+                </section>  
+
+                <section class="portfolio-item" id="rock-paper-scissors">
+                    <img src="assets/images/Asset5.jpg" alt="Rock Paper Scissors">
+                    <span>Rock Paper Scissors</span>    
+                </section>
+            </div>
         </div>
 
-
         <!-- This is the site footer -->
-        <div class="footer-wrapper">
-            Copyright
+        <div class="footer-wrapper container">
+            Copyright © 
         </div>
     </body>    
 </html>
